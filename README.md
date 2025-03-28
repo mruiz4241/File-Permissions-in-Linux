@@ -33,3 +33,10 @@ The following code demonstrates how I used Linux commands to do this:
 
 The first two lines of the screenshot show the commands I entered, while the remaining lines show the results of the second command.  The `chmod` command modifies the permissions of files and directories.  The first input defines which permissions should be altered, while the second provides the file or directory.  In this example, I deleted other's write permissions to the `project_k.txt` file.  After that, I used `ls -la` to review the changes I had made.
 
+### Change file permissions on a hidden file
+
+The research staff at my organization just archived `project_x.txt`.  They do not want anyone with write access to this project, but the user and group should have read access. 
+
+ The code below shows how I used Linux commands to modify the permissions.
+
+![image alt](
